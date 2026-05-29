@@ -48469,9 +48469,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1348407143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f113fb6b5ad4b24a8386e5284be0e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snowMaterial: {fileID: 2100000, guid: 99f9e3c6f31a48e0a9df93d42a3e3d80, type: 2}
+  normalDurationToHalf: 5
+  slowDurationToFull: 15
+  stencilLayerName: SnowStencilMask
+  stencilMaskObjectNames:
+  - Cube_physics
 --- !u!4 &1348407145
 Transform:
   m_ObjectHideFlags: 0
