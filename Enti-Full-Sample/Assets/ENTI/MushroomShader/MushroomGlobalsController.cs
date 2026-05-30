@@ -17,10 +17,11 @@ public class MushroomGlobalsController : MonoBehaviour
         if (player == null) return;
 
         Vector3 p = player.position;
+        Debug.Log(p);
 
-        Shader.SetGlobalVector(PlayerPositionID, new Vector4(p.x, p.y, p.z, 0f));
-        Shader.SetGlobalFloat(AffectRadiusID, affectRadius);
-        Shader.SetGlobalFloat(AffectContrastID, affectContrast);
-        Shader.SetGlobalFloat(AffectIntensityID, affectIntensity);
+        Shader.SetGlobalVector("_PlayerPos", new Vector4(p.x, p.y, p.z, 0f));
+        Shader.SetGlobalFloat("_AffectRadius", affectRadius);
+        Shader.SetGlobalFloat("_AffectContrast", affectContrast);
+        Shader.SetGlobalFloat("_AffectIntensity", affectIntensity);
     }
 }
