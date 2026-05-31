@@ -2,7 +2,7 @@ using UnityEngine;
 
 public sealed class SnowPostProcessController : MonoBehaviour
 {
-    private static readonly int SnowAmountId = Shader.PropertyToID("_SnowAmount");
+    private static float SnowAmountId = Shader.PropertyToID("_SnowAmount");
 
     [SerializeField] private Material snowMaterial;
     [SerializeField, Range(0f, 1f)] private float snowPivotAmount = 0.35f;
@@ -84,7 +84,7 @@ public sealed class SnowPostProcessController : MonoBehaviour
     private void SetSnowAmount(float amount)
     {
         if (snowMaterial != null)
-            snowMaterial.SetFloat(SnowAmountId, Mathf.Clamp01(amount));
+            snowMaterial.SetFloat("_SnowAmount", Mathf.Clamp01(amount));
     }
 
     private void ApplyStencilLayer()
