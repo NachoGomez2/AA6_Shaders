@@ -3,15 +3,6 @@ using UnityEngine;
 
 public class FlowmapController : MonoBehaviour
 {
-    //private static float PreviousFrameId = Shader.PropertyToID("_PreviousFrame");
-    //private static float VelocityId = Shader.PropertyToID("_Velocity");
-    //private static float PositionId = Shader.PropertyToID("_Position");
-    //private static float SimulationCenterId = Shader.PropertyToID("_SimulationCenter");
-    //private static float SimulationSizeId = Shader.PropertyToID("_SimulationSize");
-    //private static float PlayerRadiusId = Shader.PropertyToID("_PlayerRadius");
-    //private static float PlayerHardnessId = Shader.PropertyToID("_PlayerHardness");
-    //private static float FlowmapId = Shader.PropertyToID("_Flowmap");
-
     private static Color NeutralFlow = new Color(0.5f, 0.5f, 0.5f, 1.0f);
 
     [Header("References")]
