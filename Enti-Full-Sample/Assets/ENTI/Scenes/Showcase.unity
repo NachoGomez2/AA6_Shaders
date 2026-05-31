@@ -63080,6 +63080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MushroomGlobalsController
   player: {fileID: 1030025332}
+  mushroomMaterial: {fileID: 2100000, guid: 37ec1d53d91b09b44b01b999309ea246, type: 2}
   affectRadius: 5
   affectContrast: 1
   affectIntensity: 0.5

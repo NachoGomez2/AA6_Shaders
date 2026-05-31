@@ -3,6 +3,7 @@ using UnityEngine;
 public class MushroomGlobalsController : MonoBehaviour
 {
     [SerializeField] private Transform player;
+    [SerializeField] private Material mushroomMaterial;
     [SerializeField] private float affectRadius = 1.5f;
     [SerializeField] private float affectContrast = 1f;
     [SerializeField] private float affectIntensity = 0.5f;
@@ -14,14 +15,13 @@ public class MushroomGlobalsController : MonoBehaviour
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null || mushroomMaterial == null) return;
 
         Vector3 p = player.position;
-        Debug.Log(p);
 
-        Shader.SetGlobalVector("_PlayerPos", new Vector4(p.x, p.y, p.z, 0f));
-        Shader.SetGlobalFloat("_AffectRadius", affectRadius);
-        Shader.SetGlobalFloat("_AffectContrast", affectContrast);
-        Shader.SetGlobalFloat("_AffectIntensity", affectIntensity);
+        mushroomMaterial.SetVector(PlayerPositionID, new Vector4(p.x, p.y, p.z, 0f));
+        mushroomMaterial.SetFloat(AffectRadiusID, affectRadius);
+        mushroomMaterial.SetFloat(AffectContrastID, affectContrast);
+        mushroomMaterial.SetFloat(AffectIntensityID, affectIntensity);
     }
 }
