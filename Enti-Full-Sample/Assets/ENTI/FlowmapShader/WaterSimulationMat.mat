@@ -41,12 +41,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _PlayerHardness: 0.5
-    - _PlayerRadius: 0.05
+    - _PlayerHardness: 0.48
+    - _PlayerRadius: 0.06
     m_Colors:
-    - _Position: {r: 182.37141, g: 8.649999, b: 206.12923, a: 0}
+    - _Position: {r: 182.13933, g: 8.649999, b: 207.25919, a: 0}
     - _SimulationCenter: {r: 182.55, g: 8.66, b: 206.62, a: 0}
     - _SimulationSize: {r: 5, g: 1, b: 5, a: 0}
-    - _Velocity: {r: 0, g: 0, b: 0, a: 0}
+    - _Velocity: {r: 0.99954116, g: 0, b: 0.030289127, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

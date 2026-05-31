@@ -71,6 +71,6 @@ Material:
     - _Strength: 0.28
     m_Colors:
     - _Tilling: {r: 1.54, g: 1.48, b: 0, a: 0}
-    - _WaterColor: {r: 0, g: 0.98866963, b: 1, a: 1}
+    - _WaterColor: {r: 0, g: 1, b: 0.92642784, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FlowmapController : MonoBehaviour
 {
-    private static Color NeutralFlow = new Color(0.5f, 0.5f, 0.5f, 1.0f);
+    private static Color NeutralFlow = new Color(0.5f, 0.5f, 0.0f, 1.0f);
 
     [Header("References")]
     [SerializeField] private ThirdPersonController playerController;
@@ -18,10 +18,11 @@ public class FlowmapController : MonoBehaviour
     [SerializeField] private Vector3 simulationSize = new Vector3(5.0f, 1.0f, 5.0f);
 
     [Header("Player Influence")]
-    [SerializeField, Min(0.0f)] private float playerRadius = 0.05f;
-    [SerializeField, Range(0.0f, 1.0f)] private float playerHardness = 0.5f;
+    [SerializeField, Min(0.0f)] private float playerRadius;
+    [SerializeField, Range(0.0f, 1.0f)] private float playerHardness;
 
     private Vector3 lastPlayerPosition;
+    private Vector3 lastPlanarVelocity;
     private RenderTexture readBuffer;
     private RenderTexture writeBuffer;
 
@@ -53,16 +54,21 @@ public class FlowmapController : MonoBehaviour
 
         Vector3 playerPosition = playerController.transform.position;
         Vector3 playerVelocity = playerPosition - lastPlayerPosition;
+        Vector3 planarVelocity = new Vector3(-playerVelocity.x, 0.0f, -playerVelocity.z);
+        bool isPlayerMoving = planarVelocity.sqrMagnitude > 0.000001f;
+
+        if (isPlayerMoving)
+        {
+            lastPlanarVelocity = planarVelocity.normalized;
+        }
    
         lastPlayerPosition = playerPosition;
 
         simulationMaterial.SetTexture("_PreviousFrame", readBuffer);
-        simulationMaterial.SetVector("_Velocity", playerVelocity);
+        simulationMaterial.SetVector("_Velocity", lastPlanarVelocity);
         simulationMaterial.SetVector("_Position", playerPosition);
         simulationMaterial.SetVector("_SimulationCenter", simulationCenter);
         simulationMaterial.SetVector("_SimulationSize", simulationSize);
-        simulationMaterial.SetFloat("_PlayerRadius", playerRadius);
-        simulationMaterial.SetFloat("_PlayerHardness", playerHardness);
 
         Graphics.Blit(readBuffer, writeBuffer, simulationMaterial);
 
@@ -81,7 +87,6 @@ public class FlowmapController : MonoBehaviour
             return true;
         }
 
-        Debug.LogError("FlowmapController is missing one or more references.", this);
         return false;
     }
 
