@@ -3060,6 +3060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7621,6 +7625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ba88db964bf8237429a1e1893491d18b, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8253,6 +8261,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
       propertyPath: m_Name
       value: Shrooms3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10496,6 +10508,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
       propertyPath: m_Name
       value: Shrooms1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13256,6 +13272,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
       propertyPath: m_Name
       value: Shrooms3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21139,6 +21159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23833,6 +23857,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
       propertyPath: m_Name
       value: Shrooms1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27301,6 +27329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28085,6 +28117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ba88db964bf8237429a1e1893491d18b, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28615,6 +28651,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_Name
       value: Shrooms4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32239,6 +32279,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
       propertyPath: m_Name
       value: Shrooms1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36115,6 +36159,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_Name
       value: Shrooms4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40963,6 +41011,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: ba88db964bf8237429a1e1893491d18b, type: 3}
       propertyPath: m_Name
       value: Shrooms2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ba88db964bf8237429a1e1893491d18b, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49482,6 +49534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50143,7 +50199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.1211395
+      value: -0.748
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50176,6 +50232,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_Name
       value: Shrooms4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51303,6 +51363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51409,6 +51473,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
       propertyPath: m_Name
       value: Shrooms1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53237,6 +53305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54802,6 +54874,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
       propertyPath: m_Name
       value: Shrooms1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60064,6 +60140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60303,6 +60383,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_Name
       value: Shrooms4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63060,6 +63144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701317972}
   - component: {fileID: 1701317971}
+  - component: {fileID: 1701317973}
   m_Layer: 0
   m_Name: MushroomSystem
   m_TagString: Untagged
@@ -63081,7 +63166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MushroomGlobalsController
   player: {fileID: 1030025332}
   mushroomMaterial: {fileID: 2100000, guid: 37ec1d53d91b09b44b01b999309ea246, type: 2}
-  affectRadius: 5
+  affectRadius: 1.5
   affectContrast: 1
   affectIntensity: 0.5
 --- !u!4 &1701317972
@@ -63125,6 +63210,21 @@ Transform:
   - {fileID: 789227645}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1701317973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701317970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d0b74aa08adcd4f8c6f61fea2f4424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MushroomInstanceColorController
+  mushroomTag: Mushroom
+  minColor: {r: 1, g: 0, b: 0.6024933, a: 1}
+  maxColor: {r: 0, g: 0.9655411, b: 1, a: 1}
 --- !u!1001 &1703167396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67018,6 +67118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68513,6 +68617,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
       propertyPath: m_Name
       value: Shrooms4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d6da65295e122c84698ad0168685b178, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -71849,6 +71957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: b7ec1c517290b7c4c91227bd9b803416, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74926,6 +75038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrooms2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ba88db964bf8237429a1e1893491d18b, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74982,6 +75098,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
       propertyPath: m_Name
       value: Shrooms3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 90b1723f44692894cb08388591de9195, type: 3}
+      propertyPath: m_TagString
+      value: Mushroom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
